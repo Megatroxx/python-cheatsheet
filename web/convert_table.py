@@ -18,6 +18,7 @@ def convert_table(lines):
         out.append(f'┗{last[1:-1]}┛')
         return '\n'.join(out)
     def from_unicode():
+        Branch1List = []
         out = []
         for line in lines:
             line = line.translate(str.maketrans('┏┓┗┛┠┼┨┯┷━─┃│', '+++++++++--||'))
