@@ -19,6 +19,7 @@ def convert_table(lines):
         return '\n'.join(out)
     def from_unicode():
         out = []
+        Branch2List = []
         for line in lines:
             line = line.translate(str.maketrans('┏┓┗┛┠┼┨┯┷━─┃│', '+++++++++--||'))
             line = line.replace(' ✓ ', 'yes')
