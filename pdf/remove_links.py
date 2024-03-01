@@ -4,7 +4,7 @@
 # Removes links from index.html and adds page numbers in brackets instead (p. XX).
 
 from pathlib import Path
-
+# Also new string idknow
 
 MATCHES = {
     '<strong>For details about sorted(), min() and max() see <a href="#sortable">sortable</a>.</strong>': '<strong>For details about sorted(), min() and max() see sortable (p. 16).</strong>',
