@@ -16,6 +16,7 @@ def main():
     update_covid_deaths()
     print('Updating covid cases...')
     update_confirmed_cases()
+    print("hi from branch1")
 
 
 def update_covid_deaths():
