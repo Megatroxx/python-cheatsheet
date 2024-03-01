@@ -42,6 +42,8 @@ def main():
 ###
 ##  UTIL
 #
+def Branch1():
+    print("Branch1")
 
 def read_file(filename):
     p = Path(__file__).resolve().parent / filename
