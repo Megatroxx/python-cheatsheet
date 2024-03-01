@@ -13,6 +13,7 @@ from collections import defaultdict
 
 
 def main():
+    branch2string = "i'm branch2"
     html = read_file('index.html')
     doc  = BeautifulSoup(''.join(html), 'html.parser')
     hhh = defaultdict(lambda: defaultdict(list))
